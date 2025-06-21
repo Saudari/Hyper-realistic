@@ -1,4 +1,4 @@
-import Placeholder1 from "@/assets/placeholders/.jpg";
+import Placeholder1 from "@/assets/placeholders/ae_moneychuck_01.jpg";
 //import Placeholder2 from "@/assets/placeholders/.jpg";
 //import Placeholder3 from "@/assets/placeholders/.jpg";
 //import Placeholder4 from "@/assets/placeholders/.jpg";
