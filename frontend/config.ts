@@ -25,22 +25,8 @@ export const config: Config = {
 export interface Config {
   collection_id: string;
 
-  socials?: {
-    twitter?: string;
-    discord?: string;
-    homepage?: string;
-  };
 
-  defaultCollection?: {
-    name: string;
-    description: string;
-    image: string;
-  };
 
-  ourTeam?: {
-    title: string;
-    members: Array<ConfigTeamMember>;
-  };
 
   ourStory?: {
     title: string;
@@ -50,23 +36,9 @@ export interface Config {
     images?: Array<string>;
   };
 
-  faqs?: {
-    title: string;
-    questions: Array<{
-      title: string;
-      description: string;
-    }>;
-  };
+ 
 
   nftBanner?: Array<string>;
 }
 
-export interface ConfigTeamMember {
-  name: string;
-  role: string;
-  img: string;
-  socials?: {
-    twitter?: string;
-    discord?: string;
-  };
-}
+
