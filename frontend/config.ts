@@ -23,13 +23,13 @@ export const config: Config = {
   },
 
   defaultCollection: {
-    name: "MoneyChuck",
+    name: "{title}",
     description: "",
     image: Placeholder1,
   },
 
   ourStory: {
-    title: "MoneyChuck",
+    title: "{title}",
     subTitle: "Proin lorem",
     description: "",
     discordLink: "https://discord.com",
