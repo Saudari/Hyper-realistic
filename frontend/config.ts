@@ -1,14 +1,14 @@
-#import Placeholder1 from "@/assets/placeholders/.jpg";
-#import Placeholder2 from "@/assets/placeholders/.jpg";
-#import Placeholder3 from "@/assets/placeholders/.jpg";
-#import Placeholder4 from "@/assets/placeholders/.jpg";
-#import Placeholder5 from "@/assets/placeholders/.jpg";
-#import Placeholder6 from "@/assets/placeholders/.jpg";
-#import Placeholder7 from "@/assets/placeholders/.jpg";
-#import Placeholder8 from "@/assets/placeholders/.jpg";
-#import Placeholder9 from "@/assets/placeholders/.jpg";
-#import Placeholder10 from "@/assets/placeholders/.jpg";
-#import Placeholder11 from "@/assets/placeholders/.jpg";
+import Placeholder1 from "@/assets/placeholders/.jpg";
+//import Placeholder2 from "@/assets/placeholders/.jpg";
+//import Placeholder3 from "@/assets/placeholders/.jpg";
+//import Placeholder4 from "@/assets/placeholders/.jpg";
+//import Placeholder5 from "@/assets/placeholders/.jpg";
+//import Placeholder6 from "@/assets/placeholders/.jpg";
+//import Placeholder7 from "@/assets/placeholders/.jpg";
+//import Placeholder8 from "@/assets/placeholders/.jpg";
+//import Placeholder9 from "@/assets/placeholders/.jpg";
+//import Placeholder10 from "@/assets/placeholders/.jpg";
+//import Placeholder11 from "@/assets/placeholders/.jpg";
 
 import { COLLECTION_ADDRESS } from "./constants";
 
@@ -33,7 +33,8 @@ export const config: Config = {
     subTitle: "Proin lorem",
     description: "",
     discordLink: "https://discord.com",
-    images: [Placeholder1, Placeholder2, Placeholder3, Placeholder4, Placeholder5, Placeholder6, Placeholder7, Placeholder8, Placeholder9, Placeholder10, Placeholder11],
+     images: [Placeholder1],
+   // images: [Placeholder1, Placeholder2, Placeholder3, Placeholder4, Placeholder5, Placeholder6, Placeholder7, Placeholder8, Placeholder9, Placeholder10, Placeholder11],
   },
    
 
