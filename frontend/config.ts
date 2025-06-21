@@ -15,27 +15,7 @@ import { COLLECTION_ADDRESS } from "./constants";
 export const config: Config = {
   collection_id: COLLECTION_ADDRESS,
 
-  // Removing one or all of these socials will remove them from the page
-  socials: {
-    twitter: "https://twitter.com",
-    discord: "https://discord.com",
-    homepage: "#",
-  },
 
-  defaultCollection: {
-    name: "{title}",
-    description: "",
-    image: Placeholder1,
-  },
-
-  ourStory: {
-    title: "{title}",
-    subTitle: "Proin lorem",
-    description: "",
-    discordLink: "https://discord.com",
-     images: [Placeholder1],
-   // images: [Placeholder1, Placeholder2, Placeholder3, Placeholder4, Placeholder5, Placeholder6, Placeholder7, Placeholder8, Placeholder9, Placeholder10, Placeholder11],
-  },
    
 
 
